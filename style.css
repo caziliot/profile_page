@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Ubuntu:wght@500&display=swap');
+h1 {
+  text-align: center;
+  color: #9D5C0D;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+text-align: center;
+color: #E5890A;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+letter-spacing: 10px;
+
+}
+
+a {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: #9899aabd;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #272d8bdc;
+}
+
+.image-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+body{
+  background: rgba(240, 240, 240, 0.884)
+}
+
+.presentation-card {
+  text-align: center;
+  padding: 30px;
+  background: white;
+  border-radius: 4px;
+  border: 20px 20px;
+  /* width: 800px; */
+  margin: 50px 30px;
+}
+
+.btn-blue {
+  background-color: #2C2891;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  box-shadow: 0px, 5px, 15px, rgba(200, 200, 200, 0.226);
+}
+
+.btn-blue:hover {
+  background-color: #181480;
+  color:rgba(240, 240, 240, 0.884);
+  box-shadow: 0px, 5px, 15px, rgba(200, 200, 200, 0.226);
+}
+
+.list-inline {
+  list-style: none ;
+  padding: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 32px;
+  color: rgba(200, 200, 200);
+  margin: 8px 24px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read*/
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read*/
+  .container {
+    width: 100px;
+  }
+}
